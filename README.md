@@ -240,7 +240,7 @@ alex@/tmp/sort$
 -   GitHub repository: `sorting_algorithms`
 -   File: `0-bubble_sort.c, 0-O`
 
- Done? Help
+ <br>
 
 ### 1\. Insertion sort
 
@@ -352,7 +352,7 @@ alex@/tmp/sort$
 -   GitHub repository: `sorting_algorithms`
 -   File: `1-insertion_sort_list.c, 1-O`
 
- Done? Help
+ <br>
 
 ### 2\. Selection sort
 
@@ -415,7 +415,7 @@ alex@/tmp/sort$
 -   GitHub repository: `sorting_algorithms`
 -   File: `2-selection_sort.c, 2-O`
 
- Done? Help
+ <br>
 
 ### 3\. Quick sort
 
