@@ -9,22 +9,22 @@
  */
 void bubble_sort(int *array, size_t size)
 {
-	int sorted = 0;
+	bool sorted = false;
 	int tmp;
 	size_t i;
 
 	while (!sorted)
 	{
-		sorted = 1;
-		for (i = 1; i < size; i++)
+		sorted = true;
+		for (i = 0; i < (size - 1); i++)
 		{
-			if (array[i - 1] > array[i])
+			if (array[i] > array[i + 1])
 			{
-				tmp = array[i - 1];
-				array[i - 1] = array[i];
-				array[i] = tmp;
-				sorted = 0;
+				tmp = array[i];
+				array[i] = array[i + 1];
+				array[i + 1] = tmp;
 				print_array(array, size);
+				sorted = false;
 			}
 		}
 	}
