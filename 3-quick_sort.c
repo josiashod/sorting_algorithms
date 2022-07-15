@@ -10,7 +10,7 @@ void swap(int *a, int *b)
 {
 	int tmp;
 
-	if (!a || *b)
+	if (!a || !b)
 		return;
 
 	tmp = *a;
